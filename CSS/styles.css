@@ -517,13 +517,14 @@ footer {
     background-color: #C4C4C4;
     padding: 0px 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.205);
-    height: 260px;
+    height: auto;
 }
 .nosotros__data h3 {
     text-align: center;
 }
 .nosotros__data p {
     text-align: justify;
+    margin-bottom: 15px;
 }
 
 @container nosotros (min-width:700px){
