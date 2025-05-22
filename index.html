@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información de la empresa MABAJE y su portafolio de servicios.">
+    <meta name="OG:title" content="Portafolio MABAJE">
+    <title>MABAJE</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="icon" sizes="64x64" href="IMG/favicon.png" type="image/png">
+</head>
+<body>
+<!--ENCABEZADO-->
+    <header class="header">
+        <input type="checkbox" class="header__checkbox" id="open-menu">
+        <label for="open-menu" class="header__open-nav-button" role="button"><span class="material-symbols-outlined">menu</span></label>
+        <div class="header__logo-container">
+            <img class="header-logo" src="IMG/favicon.png" alt="logo183">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-element"><a href="index.html">INICIO</a></li>
+                <li class="header__nav-element"><a href="servicios.html">SERVICIOS</a></li>
+                <li class="header__nav-element"><a href="nosotros.html">¿QUIÉNES SOMOS?</a></li>
+                <li class="header__nav-element"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+<!--información principal-->
+    <main class="empresa" id="inicio">
+        <div class="empresa__wrapper">
+            <div class="empresa__data-container">
+                <div class="empresa__data">
+                    <div class="empresa__description">
+                        <h1>MABAJE INGENIERÍA Y CONSULTORÍA</h1>
+                        <p>En MABAJE brindamos soluciones integrales en consultoría, estudios, diseños y supervisión de proyectos de obra civil, así como en adecuación y remodelación del sector inmobiliario. Nuestro equipo multidisciplinario garantiza la ejecución de proyectos con calidad, cumplimiento y eficiencia, respaldados por un enfoque técnico y normativo riguroso. Además, ofrecemos servicios de interventoría, estudios y obras ambientales, y acompañamos a nuestros clientes en el trámite y gestión de licencias ante las entidades competentes. En MABAJE trabajamos con compromiso, experiencia y responsabilidad para materializar ideas y transformar territorios de manera sostenible y segura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="empresa__img-cotainer">
+                <img class="empresa__img" src="IMG/ingeniero_construccion2.png" alt="cuenca">
+            </div>
+        </div>
+    </main>
+    <section class="servicio" id="servicio">
+        <h2>SERVICIOS</h2>
+        <div class="servicio__data-container">
+            <picture>
+                <source media="(max-width: 400px)" srcset="IMG/servicioshorizontal4.png">
+                <source media="(min-width: 401px)" srcset="IMG/servicioshorizontal.png">
+                <img src="IMG/servicioshorizontal.png" alt="servicios" class="img__servicios">
+            </picture>
+        </div>
+        <div class="container-button">
+            <div class="button-ver_mas">
+            <a href="servicios.html">Ver más información acerca de los servicios</a>
+        </div>
+        <div class="button-ver_mas">
+            <a href="PORTAFOLIO_MABAJE.pdf" download>📄 Descargar Portafolio PDF</a>
+        </div>
+        </div>
+    </section>
+    <section class="form" id="contacto">
+        <h2>Contacto</h2>
+        <form class="form__form" action="https://formsubmit.co/mamca.consultoria@gmail.com" method="POST">
+            <div class="form__input-container">
+                <label for="">Nombre
+                    <input type="text" required placeholder="Nombre">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Apellido
+                    <input type="text" required placeholder="Apellido">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Correo electrónico
+                    <input type="email" required placeholder="xxxx@example.com">
+                </label>
+            </div>
+            <div class="form__input-container">
+                <label for="">Mensaje
+                    <textarea placeholder="Tu mensaje"></textarea>
+                </label>
+            </div>
+            <div class="form__input-container">
+                <input type="submit" >
+            </div>
+        </form>
+    </section>
+    <div class="button-whats">
+        <a href="https://wa.me/573016764850" target="_blank"> <i class="fab fa-whatsapp"></i> Contáctanos en WhatsApp </a>
+    </div>
+    <footer>
+        <p>MABAJE | Copyright © 2025</p>
+        <div class="contactanos">
+            <h4>Contáctanos</h4>
+            <p> <i class="fas fa-envelope"></i> <strong>correo electronico:</strong>  mabajeingenieriayconsultoria@gmail.com</p>
+            <p> <i class="fas fa-phone"></i> <strong>Teléfonos:</strong> 3229501919 | 3016764850</p>
+        </div>
+    </footer>
+</body>
+</html>
