@@ -461,7 +461,7 @@ footer {
     margin-top: 10px;
 }
 
-@container servicios2 (min-width:500px) {
+@container servicios2 (min-width:600px) {
     .servicios2__data-container{
         grid-template-columns: repeat(auto-fit,minmax(300px,1fr) );
     }
